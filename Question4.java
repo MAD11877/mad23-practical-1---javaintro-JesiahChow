@@ -18,7 +18,7 @@ public class Question4 {
 
     Scanner in = new Scanner(System.in);
     int height = in.nextInt();
-    for (int i = 1; i < height; i++) {
+    for (int i = 0; i < height; i++) {
       for (int j = 0; j < height - i; j++) {
         System.out.print("*" + " ");
       }
