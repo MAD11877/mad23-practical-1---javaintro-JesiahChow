@@ -20,7 +20,7 @@ public class Question4 {
     int height = in.nextInt();
     for (int i = 0; i < height; i++) {
       for (int j = 0; j < height - i; j++) {
-        System.out.print("*" + " ");
+        System.out.print("*");
       }
       System.out.println();
     }
