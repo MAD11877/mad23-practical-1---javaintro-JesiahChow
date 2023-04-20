@@ -66,7 +66,6 @@ public class Question5 {
 
       }
 
-      System.out.println("mode:");
       for (int i = 0; i < n; i++) {
         if (b[i] == m)
           System.out.println(a[i]);
