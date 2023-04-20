@@ -8,14 +8,16 @@ public class Question2 {
      * 
      * Hint: in.nextDouble() to read double
      */
+
     Scanner in = new Scanner(System.in);
-    System.out.print("Please enter your height in metres: ");
+    /* System.out.print("Please enter your height in metres: "); */
     double height = in.nextDouble();
 
-    System.out.print("Please enter your weight in kg: ");
+    /* System.out.print("Please enter your weight in kg: "); */
     double weight = in.nextDouble();
 
     double bmi = weight / height * height;
-    System.out.println("Your bmi is: " + bmi);
+    System.out.println(bmi);
+    in.close();
   }
 }

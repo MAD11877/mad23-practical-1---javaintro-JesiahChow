@@ -17,7 +17,6 @@ public class Question4 {
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter a whole number you wish to give for the base of triangle: ");
     int height = in.nextInt();
     for (int i = 1; i < height; i++) {
       for (int j = 0; j < height - i; j++) {

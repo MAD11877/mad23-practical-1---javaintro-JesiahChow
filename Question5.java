@@ -34,11 +34,9 @@ public class Question5 {
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.println("enter a number");
     int n = in.nextInt(), c;
     int[] a = new int[n];
     int[] b = new int[n];
-    System.out.println("enter " + n + " elements");
     /* Storing the values */
     for (int i = 0; i < n; i++) {
       a[i] = in.nextInt();
